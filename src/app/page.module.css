@@ -1,0 +1,82 @@
+.leftsection{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  justify-content: center;
+}
+.leftsection > h1{
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.rightsection{
+  background-color: #F5F5F5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+.rightsection h1 {
+  /* font-family: 'Montserrat'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+.rightsection span {
+  /* font-family: 'Lato'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-left: 6px;
+  
+}
+.loginsections{
+  margin-top: 12px ;
+}
+
+.loginbtndiv{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 0px;
+}
+
+.loginbtndiv button {
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height:40px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.btmsec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.btmsec span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #858585;
+}
+.btmsec span a {
+  color: #346BD4;
+}
